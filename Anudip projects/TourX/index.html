@@ -1,0 +1,719 @@
+<!DOCTYPE html>
+      <html lang="en">
+      <head>
+          <meta charset="UTF-8">
+          <meta http-equiv="X-UA-Compatible" content="IE=edge">
+          <meta name="viewport" content="width=device-width, initial-scale=1.0">
+          <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+          <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
+          <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+          <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+          <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet">
+          <link href="https://fonts.googleapis.com/css?family=Dancing+Script" rel="stylesheet">
+          <link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
+          <link href="https://fonts.googleapis.com/css?family=Montserrat:500|Raleway:500" rel="stylesheet">
+          <link href="https://fonts.googleapis.com/css?family=Rammetto+One" rel="stylesheet">
+          <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+          <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+          <!-- Boostrap 4 CSS -->
+          <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+          <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+          <link rel="stylesheet" href="login.html">
+          <link rel="stylesheet" href="signup.html">
+          <link rel="stylesheet" href="index.css">
+          <link rel="stylesheet" href="hotel.html">
+
+
+
+          <title>TourX</title>
+      </head>
+      <body>
+          <header>
+              <h1>Tourx</h1>
+          </header>
+          </div>
+
+          <!--NAV-->
+          <div class="topnav">
+              <div class="subnav">
+                  <button class="subnavbtn">HOME <i class="fa fa-caret-down"></i></button>
+                  <div class="subnav-content">
+                      <a href="#FLIGHTS">FLIGHTS</a>
+                      <a href="#BUS">BUS</a>
+                      <a href="#TRAINS">TRAINS</a>
+                      <a href="#HOTELS">HOTELS</a>
+                  </div>
+              </div>
+              <a href="https://rb.gy/cqb54u" target="_blank">
+                  NEWS
+              </a>
+              <a href="#contact">
+                  CONTACT
+              </a>
+              <a class="login" href="signin.html">
+                  LOGIN/SIGNUP
+              </a>
+              </ul>
+          </div>
+          <!--NAV ENDS-->
+
+          <section>
+              <h2>Gallery</h2>
+
+              <!--imgs-->
+              <!-- The grid: four columns -->
+              <div class="row" style="background-image:url(gaa.jpg)">
+                  <div class="column">
+                      <img src="images/gangtok.jpg" alt="Nature" onclick="myFunction(this);">
+                  </div>
+                  <div class="column">
+                      <img src="images/goldtemp.jpg" alt="Snow" onclick="myFunction(this);">
+                  </div>
+                  <div class="column">
+                      <img src="images/vrindavan.jpg" alt="Lights" onclick="myFunction(this);">
+                  </div>
+                  <div class="column">
+                      <img src="images/jagmandr.jpg" alt="Mountains" onclick="myFunction(this);">
+                  </div>
+                  <div class="column">
+                      <img src="images/ladakh.jpg" alt="Lights" onclick="myFunction(this);">
+                  </div>
+                  <div class="column">
+                      <img src="images/manali.jpg" alt="Lights" onclick="myFunction(this);">
+                  </div>
+                  <div class="column">
+                      <img src="images/mysore.jpg" alt="Lights" onclick="myFunction(this);">
+                  </div>
+                  <div class="column">
+                      <img src="images/tajmahal.jpg" alt="Lights" onclick="myFunction(this);">
+                  </div>
+
+              </div>            
+          </section>
+
+          <!--img ends-->
+          <br>
+          <br>
+          <!--FLIGHTS-->
+          <section class="b1" style="background-image: url(ff.jpg);">
+              <a name="FLIGHTS"></a><br>
+              <h4 id="category" class="flight">Flights</h4>
+              <div class="row" style=" margin-right:20px;margin-left:50px;"id="flights"></div>
+              <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 row-cols-xl-5">
+                  <!--Delhi - Mumbai-->
+                  <div class="col mb-4">
+                      <div class="card" >
+                          <img class="card-img-top" src="others/mumbai.PNG" alt="Card image cap">
+                          <div class="card-body">
+                              <h5 class="card-title">New Delhi - Mumbai</h5>
+                              <p class="card-text">Trending destination | Great prices! </p>
+                              <p class="card-text"><big class="text-muted">&#8377 4,282 - 7,026</big></p>
+                              <div class="card-action red darken-4">
+                                  <a href="https://goo.gl/uNgaoa" target="_blank" class="white-text ">BOOK</a>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+                  <!--Delhi - Lucknow-->
+                  <div class="col mb-4">
+                      <div class="card">
+                          <img class="card-img-top" src="others/lucknow.jpg" alt="Card image cap">
+                          <div class="card-body">
+                              <h5 class="card-title">New Delhi - Lucknow</h5>
+                              <p class="card-text">Weekend breaks | Affordable prices</p>
+                              <p class="card-text"><big class="text-muted">&#8377 2,147 - 4,408</big></p>
+                              <div class="card-action red darken-4">
+                                  <a href="https://goo.gl/uNgaoa" target="_blank" class="white-text ">BOOK</a>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+                  <!--Delhi - Hyderabad-->
+                  <div class="col mb-4">
+                      <div class="card">
+                          <img class="card-img-top" src="others/hyderabad.PNG" alt="Card image cap">
+                          <div class="card-body">
+                              <h5 class="card-title">New Delhi - Hyderabad</h5>
+                              <p class="card-text">Popular Deals. Fly now!</p>
+                              <p class="card-text"><big class="text-muted">&#8377 3,343 - 5,227</big></p>
+                              <div class="card-action red darken-4">
+                                  <a href="https://goo.gl/uNgaoa" target="_blank" class="white-text ">BOOK</a>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+                  <!--Delhi - Bangalore-->
+                  <div class="col mb-4">
+                      <div class="card">
+                          <img class="card-img-top" src="others/bangalore.PNG" alt="Card image cap">
+                          <div class="card-body">
+                              <h5 class="card-title">New Delhi - Bangalore</h5>
+                              <p class="card-text">Popular Deals. Fly now!</p>
+                              <p class="card-text"><big class="text-muted">&#8377 5,545 - 14,945</big></p>
+                              <div class="card-action red darken-4">
+                                  <a href="https://goo.gl/uNgaoa" target="_blank" class="white-text ">BOOK</a>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+                  <!--Delhi - Patna-->
+                  <div class="col mb-4">
+                      <div class="card">
+                          <img class="card-img-top" src="others/patna.PNG" alt="Card image cap">
+                          <div class="card-body">
+                              <h5 class="card-title">New Delhi - Patna</h5>
+                              <p class="card-text">Weekend breaks | Affordable prices</p>
+                              <p class="card-text"><big class="text-muted">&#8377 3,216 - 9,790</big></p>
+                              <div class="card-action red darken-4">
+                                  <a href="https://goo.gl/uNgaoa" target="_blank" class="white-text ">BOOK</a>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+                  <!--Delhi - Shimla-->
+                  <div class="col mb-4">
+                      <div class="card">
+                          <img class="card-img-top" src="others/shimla.PNG" alt="Card image cap">
+                          <div class="card-body">
+                              <h5 class="card-title">New Delhi - Shimla</h5>
+                              <p class="card-text">Weekend breaks | Affordable prices</p>
+                              <p class="card-text"><big class="text-muted">&#8377 4,216 - 10,580</big></p>
+                              <div class="card-action red darken-4">
+                                  <a href="https://goo.gl/uNgaoa" target="_blank" class="white-text ">BOOK</a>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+                  <!--Delhi - Kolkata-->
+                  <div class="col mb-4">
+                      <div class="card">
+                          <img class="card-img-top" src="others/kolkata.PNG" alt="Card image cap">
+                          <div class="card-body">
+                              <h5 class="card-title">New Delhi - Kolkata</h5>
+                              <p class="card-text">Popular Deals. Fly now!</p>
+                              <p class="card-text"><big class="text-muted">&#8377 3,216 - 8,580</big></p>
+                              <div class="card-action red darken-4">
+                                  <a href="https://goo.gl/uNgaoa" target="_blank" class="white-text ">BOOK</a>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+              
+              <div class="card teal hoverable"  style="margin-top: 50px; margin-right:45px;margin-left:45px;">
+                  <div class="card-content white-text" >
+                      <span class="card-title" style="font-size: 2.5em;  font-family:  Varela Round"><br />Wanna book another Flight ?</span>
+                  </div>
+                  <div class="card-action">
+                      <a href="https://goo.gl/uNgaoa" target="_blank" style="background: #004d40; padding: 5px 9px; color: white; font-family: Montserrat;">FIND HERE</a>
+                  </div>
+                  </div>
+          </section>
+          <!--End of flights-->
+          <br>
+          <br>
+          <!--Bus-->
+          <section class="c1" style="background-image:url(bb.jpg);">
+              <a name="BUS"></a><br>
+              <h4 id="category" class="hotels">Buses</h4>
+              <div class="row" style="margin-top: 50px;" id="bus">
+                  <div class="card" style="width: 18rem;">
+                      <div class="card-body">
+                          <h5 class="card-title">Delhi - Manali</h5>
+                          <p class="card-text">Volvo | Mercedes | Ordinary</p>
+                          <p class="makebold">&#8377 657 - 1,360<sup>*</sup></p>
+                      </div>
+                      <div class="card-action red darken-4">
+                          <a href="https://www.redbus.in/">BOOK</a>
+                      </div>
+                  </div>
+
+                  <div class="card" style="width: 18rem;">
+                      <div class="card-body">
+                          <h5 class="card-title">Delhi - Chandigarh</h5>
+                          <p class="card-text">Volvo | Mercedes | Ordinary</p>
+                          <p class="makebold">&#8377 8377 240 - 1,499<sup>*</sup></p>
+                      </div>
+                      <div class="card-action red darken-4">
+                          <a href="https://www.redbus.in/">BOOK</a>
+                      </div>
+                  </div>
+
+                  <div class="card" style="width: 18rem;">
+                      <div class="card-body">
+                          <h5 class="card-title">Mumbai - Pune</h5>
+                          <p class="card-text">Volvo | Mercedes | Ordinary</p>
+                          <p class="makebold">&#8377 8377 137 - 2,800<sup>*</sup></p>
+                      </div>
+                      <div class="card-action red darken-4">
+                          <a href="https://www.redbus.in/">BOOK</a>
+                      </div>
+                  </div>
+
+                  <div class="card" style="width: 18rem;">
+                      <div class="card-body">
+                          <h5 class="card-title">Amritsar - Delhi</h5>
+                          <p class="card-text">Volvo | Mercedes | Ordinary</p>
+                          <p class="makebold">&#8377 469 - 1,299<sup>*</sup></p>
+                      </div>
+                      <div class="card-action red darken-4">
+                          <a href="https://www.redbus.in/">BOOK</a>
+                      </div>
+                  </div>
+
+                  <div class="card" style="width: 18rem;">
+                      <div class="card-body">
+                          <h5 class="card-title">Mumbai - Goa</h5>
+                          <p class="card-text">Volvo | Mercedes | Ordinary</p>
+                          <p class="makebold">&#8377 665 - 2,550<sup>*</sup></p>
+                      </div>
+                      <div class="card-action red darken-4">
+                          <a href="https://www.redbus.in/">BOOK</a>
+                      </div>
+                  </div>
+
+                  <div class="card" style="width: 18rem; ">
+                      <div class="card-body">
+                          <h5 class="card-title">Bangalore - Chennai</h5>
+                          <p class="card-text">Volvo | Mercedes | Ordinary</p>
+                          <p class="makebold">&#8377 261 - 3,849<sup>*</sup></p>
+                      </div>
+                      <div class="card-action red darken-4">
+                          <a href="https://www.redbus.in/">BOOK</a>
+                      </div>
+                  </div>
+              </div>
+              <div class="card teal hoverable" style="margin-top: 50px; margin-right:45px;margin-left:45px;">
+                  <div class="card-content white-text">
+                      <span class="card-title" style="font-size: 2.5em;  font-family:  Varela Round"><br />Wanna book another Bus ?</span>
+                  </div>
+                  <div class="card-action">
+                      <a href="https://www.redbus.in/" target="_blank" style="background: #004d40; padding: 5px 9px; color: white; font-family: Montserrat;">FIND HERE</a>
+                  </div>
+          </section>
+          <!--End of bus-->
+          <br>
+          <br>
+          <!--Trains-->
+          <section class="c0" style="background-image: url(tt.jpg);">
+
+              <a name="TRAINS"></a><br>
+              <h4 id="category" class="trains" style="color: black;">Trains</h4>
+              <div class="row" style="margin-top: 50px;" id="trains">
+                  <div class="card" style="width: 18rem; ">
+                      <div class="card-body">
+                          <h5 class="card-title">Amritsar - New Delhi</h5>
+                          <p class="makebold">&#8377 261 - 3,849<sup>*</sup></p>
+                      </div>
+                      <div class="card-action red darken-4">
+                          <a href="https://www.cleartrip.com/trains">View all</a>
+                      </div>
+                  </div>
+
+                  <div class="card" style="width: 18rem; ">
+                      <div class="card-body">
+                          <h5 class="card-title">Amritsar - New Delhi</h5>
+                          <p class="makebold">&#8377 261 - 3,849<sup>*</sup></p>
+                      </div>
+                      <div class="card-action red darken-4">
+                          <a href="https://www.cleartrip.com/trains">View all</a>
+                      </div>
+                  </div>
+                  <div class="card" style="width: 18rem; ">
+                      <div class="card-body">
+                          <h5 class="card-title">Delhi - Hyderabad</h5>
+                          <p class="makebold">&#8377 685 - 5,005<sup>*</sup></p>
+                      </div>
+                      <div class="card-action red darken-4">
+                          <a href="https://www.cleartrip.com/trains">View all</a>
+                      </div>
+                  </div>
+                  <div class="card" style="width: 18rem; ">
+                      <div class="card-body">
+                          <h5 class="card-title">Delhi - Mumbai</h5>
+                          <p class="makebold">&#8377 575 - 4,455<sup>*</sup></p>
+                      </div>
+                      <div class="card-action red darken-4">
+                          <a href="https://www.cleartrip.com/trains">View all</a>
+                      </div>
+                  </div>
+                  <div class="card" style="width: 18rem; ">
+                      <div class="card-body">
+                          <h5 class="card-title">Lucknow - Delhi</h5>
+                          <p class="makebold">&#8377 295 - 2,085<sup>*</sup></p>
+                      </div>
+                      <div class="card-action red darken-4">
+                          <a href="https://www.cleartrip.com/trains">View all</a>
+                      </div>
+                  </div>
+                  <div class="card" style="width: 18rem; ">
+                      <div class="card-body">
+                          <h5 class="card-title">Mumbai - Ahmedabad</h5>
+                          <p class="makebold">&#8377 295 - 2,085<sup>*</sup></p>
+                      </div>
+                      <div class="card-action red darken-4">
+                          <a href="https://www.cleartrip.com/trains">View all</a>
+                      </div>
+                  </div>
+
+                  <div class="card" style="width: 18rem; ">
+                      <div class="card-body">
+                          <h5 class="card-title">Chennai - Pune</h5>
+                          <p class="makebold">&#8377 205 - 2,240<sup>*</sup></p>
+                      </div>
+                      <div class="card-action red darken-4">
+                          <a href="https://www.cleartrip.com/trains">View all</a>
+                      </div>
+                  </div>
+              </div>
+                  <div class="card teal hoverable" style="margin-top: 50px; margin-right: 45px; margin-left: 45px;">
+                      <div class="card-content white-text">
+                          <span class="card-title" style="font-size: 2.5em;  font-family:  Varela Round"><br />Wanna book another Train ?</span>
+                      </div>
+                      <div class="card-action">
+                          <a href="https://www.cleartrip.com/trains" target="_blank" style="background: #004d40; padding: 5px 9px; color: white; font-family: Montserrat;">FIND HERE</a>
+                      </div>
+                  </div>
+                 
+</section>
+          <!--End of trains-->
+          <br>
+          <br>
+          <!--Hotels-->
+          <section class="d1">
+              <a name="HOTELS"></a><br>
+              <h4 id="category" class="hotels">Hotels</h4>
+              <div class="row" style="margin-top:40px;" id="hotel">
+                  <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 row-cols-xl-5">
+                      
+                      <div class="col mb-4">
+                          <div class="card">
+                              <img class="card-img-top" src="others/TajMahalPalace.jpg" alt="Card image cap">
+                              <div class="card-body">
+                                  <h5 class="card-title">The Taj Mahal, Mumbai</h5>
+                                  <span class="fa fa-star checked"></span>
+                                  <span class="fa fa-star checked"></span>
+                                  <span class="fa fa-star checked"></span>
+                                  <span class="fa fa-star checked"></span>
+                                  <span class="fa fa-star"></span>
+                                  <p class="card-text"><big class="text-muted">&#8377 7,500 - 12,000</big></p>
+                                  <div class="card-action red darken-4">
+                                      <a href="https://goo.gl/2V28Nm" target="_blank" class="white-text ">BOOK</a>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                      
+                      <div class="col mb-4">
+                          <div class="card">
+                              <img class="card-img-top" src="others/TheOberoiMumbai.jpg" alt="Card image cap">
+                              <div class="card-body">
+                                  <h5 class="card-title">The Oberoi, Mumbai</h5>
+                                  <span class="fa fa-star checked"></span>
+                                  <span class="fa fa-star checked"></span>
+                                  <span class="fa fa-star checked"></span>
+                                  <span class="fa fa-star checked"></span>
+                                  <span class="fa fa-star"></span>
+                                  <p class="card-text"><big class="text-muted">&#8377 12,500 - 22,000</big></p>
+                                  <div class="card-action red darken-4">
+                                      <a href="https://goo.gl/2V28Nm" target="_blank" class="white-text ">BOOK</a>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                     
+                      <div class="col mb-4">
+                          <div class="card">
+                              <img class="card-img-top" src="others/ITCWindsor.jpg" alt="Card image cap">
+                              <div class="card-body">
+                                  <h5 class="card-title">ITC Windsor, Bangalore</h5>
+                                  <span class="fa fa-star checked"></span>
+                                  <span class="fa fa-star checked"></span>
+                                  <span class="fa fa-star checked"></span>
+                                  <span class="fa fa-star checked"></span>
+                                  <span class="fa fa-star"></span>
+                                  <p class="card-text"><big class="text-muted">&#8377 11,500 - 25,000</big></p>
+                                  <div class="card-action red darken-4">
+                                      <a href="https://goo.gl/2V28Nm" target="_blank" class="white-text ">BOOK</a>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                    
+                      <div class="col mb-4">
+                          <div class="card">
+                              <img class="card-img-top" src="others/TheGrand.jpg" alt="Card image cap">
+                              <div class="card-body">
+                                  <h5 class="card-title">The Grand, New Delhi</h5>
+                                  <span class="fa fa-star checked"></span>
+                                  <span class="fa fa-star checked"></span>
+                                  <span class="fa fa-star checked"></span>
+                                  <span class="fa fa-star checked"></span>
+                                  <span class="fa fa-star"></span>
+                                  <p class="card-text"><big class="text-muted">&#8377 7,500 - 20,000</big></p>
+                                  <div class="card-action red darken-4">
+                                      <a href="https://goo.gl/2V28Nm" target="_blank" class="white-text ">BOOK</a>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                     
+                      <div class="col mb-4">
+                          <div class="card">
+                              <img class="card-img-top" src="others/JW.jpg" alt="Card image cap">
+                              <div class="card-body">
+                                  <h5 class="card-title">JW Marriott, Pune</h5>
+                                  <span class="fa fa-star checked"></span>
+                                  <span class="fa fa-star checked"></span>
+                                  <span class="fa fa-star checked"></span>
+                                  <span class="fa fa-star checked"></span>
+                                  <span class="fa fa-star"></span>
+                                  <p class="card-text"><big class="text-muted">&#8377 7,999 - 18,700</big></p>
+                                  <div class="card-action red darken-4">
+                                      <a href="https://goo.gl/2V28Nm" target="_blank" class="white-text ">BOOK</a>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                      
+                      <div class="col mb-4">
+                          <div class="card">
+                              <img class="card-img-top" src="others/TajExotica.jpg" alt="Card image cap">
+                              <div class="card-body">
+                                  <h5 class="card-title">Taj Exotica, Goa</h5>
+                                  <span class="fa fa-star checked"></span>
+                                  <span class="fa fa-star checked"></span>
+                                  <span class="fa fa-star checked"></span>
+                                  <span class="fa fa-star checked"></span>
+                                  <span class="fa fa-star"></span>
+                                  <p class="card-text"><big class="text-muted">&#8377 4,216 - 10,580</big></p>
+                                  <div class="card-action red darken-4">
+                                      <a href="https://goo.gl/2V28Nm" target="_blank" class="white-text ">BOOK</a>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                     
+                      <div class="col mb-4">
+                          <div class="card">
+                              <img class="card-img-top" src="others/kolkata.PNG" alt="Card image cap">
+                              <div class="card-body">
+                                  <h5 class="card-title">New Delhi - Kolkata</h5>
+                                  <span class="fa fa-star checked"></span>
+                                  <span class="fa fa-star checked"></span>
+                                  <span class="fa fa-star checked"></span>
+                                  <span class="fa fa-star checked"></span>
+                                  <span class="fa fa-star"></span>
+                                  <p class="card-text"><big class="text-muted">&#8377 3,216 - 8,580</big></p>
+                                  <div class="card-action red darken-4">
+                                      <a href="https://goo.gl/2V28Nm" target="_blank" class="white-text ">BOOK</a>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+                  </div>
+                  <div class="card teal hoverable" style="margin-top: 50px; margin-right:45px;margin-left:45px;">
+                      <div class="card-content white-text">
+                          <span class="card-title" style="font-size: 2.5em;  font-family:  Varela Round"><br />Wanna book another Hotel ?</span>
+                      </div>
+                      <div class="card-action">
+                          <a href="https://goo.gl/2V28Nm" target="_blank" style="background: #004d40; padding: 5px 9px; color: white; font-family: Montserrat;">FIND HERE</a>
+                      </div>
+                  </div>
+
+</section>
+
+          <br>
+          <br>
+          <!--End of hotels-->
+          <!--Ratings-->
+          <section class="s1">
+                  <h4 style="margin-bottom: -40px; color: black;">What our users say ?</h4>
+                  <br>
+                  <div class="row" style="margin-top: 50px;" id="flights">
+
+                      <div class="col s4 " style="margin-bottom: .5em">
+                          <div class="card grey lighten-4 hoverable ">
+                              <div class="card-content black-text">
+                                  <span class="card-title" style="font-size: 25px; font-weight: 400;">Akash Singhal</span>
+                                  <span class="fa fa-star checked"></span>
+                                  <span class="fa fa-star checked"></span>
+                                  <span class="fa fa-star checked"></span>
+                                  <span class="fa fa-star"></span>
+                                  <span class="fa fa-star"></span>
+                                  <p>Awesome site with awesome services.</p><br>
+                              </div>
+                          </div>
+                      </div>
+
+
+                      <div class="col s4 " style="margin-bottom: .5em">
+                          <div class="card grey lighten-4 hoverable ">
+                              <div class="card-content black-text">
+                                  <span class="card-title" style="font-size: 25px; font-weight: 400;">Prakhar Gupta</span>
+                                  <span class="fa fa-star checked"></span>
+                                  <span class="fa fa-star checked"></span>
+                                  <span class="fa fa-star checked"></span>
+                                  <span class="fa fa-star"></span>
+                                  <span class="fa fa-star"></span>
+                                  <p>One of my favourite site till now.</p><br>
+                              </div>
+                          </div>
+                      </div>
+
+                      <div class="col s4 " style="margin-bottom: .5em">
+                          <div class="card grey lighten-4 hoverable ">
+                              <div class="card-content black-text">
+                                  <span class="card-title" style="font-size: 25px; font-weight: 400;">Naveen Yadav</span>
+                                  <span class="fa fa-star checked"></span>
+                                  <span class="fa fa-star checked"></span>
+                                  <span class="fa fa-star checked"></span>
+                                  <span class="fa fa-star"></span>
+                                  <span class="fa fa-star"></span>
+                                  <p>Awesome places to visit and travel.</p><br>
+                              </div>
+                          </div>
+                      </div>
+
+                      <div class="col s4 " style="margin-bottom: .5em">
+                          <div class="card grey lighten-4 hoverable ">
+                              <div class="card-content black-text">
+                                  <span class="card-title" style="font-size: 25px; font-weight: 400;">Supriya Singh</span>
+                                  <span class="fa fa-star checked"></span>
+                                  <span class="fa fa-star checked"></span>
+                                  <span class="fa fa-star checked"></span>
+                                  <span class="fa fa-star checked"></span>
+                                  <span class="fa fa-star"></span>
+                                  <p>Best Prices. Best holidays.Best trip.</p><br>
+                              </div>
+                          </div>
+                      </div>
+
+                      <div class="col s4 " style="margin-bottom: .5em">
+                          <div class="card grey lighten-4 hoverable ">
+                              <div class="card-content black-text">
+                                  <span class="card-title" style="font-size: 25px; font-weight: 400;">Akhil Prajapati</span>
+                                  <span class="fa fa-star checked"></span>
+                                  <span class="fa fa-star checked"></span>
+                                  <span class="fa fa-star checked"></span>
+                                  <span class="fa fa-star checked"></span>
+                                  <span class="fa fa-star"></span>
+                                  <p>Best holidays.Best trip.</p><br>
+                              </div>
+                          </div>
+                      </div>
+
+                      <div class="col s4 " style="margin-bottom: .5em">
+                          <div class="card grey lighten-4 hoverable ">
+                              <div class="card-content black-text">
+                                  <span class="card-title" style="font-size: 25px; font-weight: 400;">Smriti Shetye</span>
+                                  <span class="fa fa-star checked"></span>
+                                  <span class="fa fa-star checked"></span>
+                                  <span class="fa fa-star checked"></span>
+                                  <span class="fa fa-star checked"></span>
+                                  <span class="fa fa-star"></span>
+                                  <p>Best holidays.Awesome trip.</p><br>
+                              </div>
+                          </div>
+                      </div>
+
+                      <div class="col s4 " style="margin-bottom: .5em">
+                          <div class="card grey lighten-4 hoverable ">
+                              <div class="card-content black-text">
+                                  <span class="card-title" style="font-size: 25px; font-weight: 400;">Prithvi Bhatt</span>
+                                  <span class="fa fa-star checked"></span>
+                                  <span class="fa fa-star checked"></span>
+                                  <span class="fa fa-star checked"></span>
+                                  <span class="fa fa-star checked"></span>
+                                  <span class="fa fa-star"></span>
+                                  <p>Most relaxing holiday we had and good experience. </p><br>
+                              </div>
+                          </div>
+                      </div>
+
+                      <div class="col s4 " style="margin-bottom: .5em">
+                          <div class="card grey lighten-4 hoverable ">
+                              <div class="card-content black-text">
+                                  <span class="card-title" style="font-size: 25px; font-weight: 400;">Pranay Solanki</span>
+                                  <span class="fa fa-star checked"></span>
+                                  <span class="fa fa-star checked"></span>
+                                  <span class="fa fa-star checked"></span>
+                                  <span class="fa fa-star checked"></span>
+                                  <span class="fa fa-star"></span>
+                                  <p>Superbly organised by Experience Travel Group</p><br>
+                              </div>
+                          </div>
+                      </div>
+
+
+                      <div class="col s4 " style="margin-bottom: .5em">
+                          <div class="card grey lighten-4 hoverable ">
+                              <div class="card-content black-text">
+                                  <span class="card-title" style="font-size: 25px; font-weight: 400;">Harsh Snagvwikar</span>
+                                  <span class="fa fa-star checked"></span>
+                                  <span class="fa fa-star checked"></span>
+                                  <span class="fa fa-star checked"></span>
+                                  <span class="fa fa-star checked"></span>
+                                  <span class="fa fa-star"></span>
+                                  <p>Excellent organisation and the best of experiences.</p><br>
+                              </div>
+                          </div>
+                      </div>
+
+
+                      <div class="col s4 " style="margin-bottom: .5em">
+                          <div class="card grey lighten-4 hoverable ">
+                              <div class="card-content black-text">
+                                  <span class="card-title" style="font-size: 25px; font-weight: 400;">Nishant Bhalerao</span>
+                                  <span class="fa fa-star checked"></span>
+                                  <span class="fa fa-star checked"></span>
+                                  <span class="fa fa-star checked"></span>
+                                  <span class="fa fa-star checked"></span>
+                                  <span class="fa fa-star"></span>
+                                  <p>Great service and communication throughout the trip.</p><br>
+                              </div>
+                          </div>
+                      </div>
+
+
+                  </div>             
+              <br>
+              <br>
+          </section>
+          <!--user review end-->
+          <section class="d4">
+
+              <a name="contact"></a>
+              <div id="contact" class="hoverable">
+                  <h2 style="margin-top: 10px;">Contact Us</h2>
+                  <p>Contact us and we'll get back to you within 24 hours</p>
+                  <ul>
+                      <li><i class="fa fa-map-marker"></i> Jalandhar, Punjab</li>
+                      <li><i class="fa fa-phone"></i> +91 8770924907, +91 9131674222</li>
+                      <li><i class="fa fa-envelope"></i> tourx.support@gmail.com</li>
+                  </ul>
+
+              </div>
+
+          </section>
+          <!--FOOTER-->
+
+
+          <footer class="section teal darken-3">
+              <p class="flow-text white-text center" style="font-family: Montserrat; font-size: 35px;">FAQ  |  Contact Us | &copy; 2021 | TourX</a>
+          </footer>
+
+          <!--FOOTER ENDS-->
+          <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+          <script src="js/index.js"></script>
+          <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+          <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+          <!-- Boostrap JS -->
+          <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+          <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+
+      </body>
+      </html>
