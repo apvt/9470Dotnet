@@ -14,7 +14,8 @@ namespace _2_generic_and_non_generic
 
             Console.WriteLine("Hello World!");
 
-            var c`ities = new Dictionary<string, string>(){
+            var cities = new Dictionary<string, string>()
+	    {
 
 	{"UK", "London, Manchester, Birmingham"},
 
@@ -30,7 +31,8 @@ cities["USA"] = "Los Angeles, Boston"; // update value of USA key
 
 //cities["France"] = "Paris"; //throws run-time exception: KeyNotFoundException
 
-if(cities.ContainsKey("France")){
+if(cities.ContainsKey("France"))
+{
 
     cities["France"] = "Paris";
 
