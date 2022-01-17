@@ -5,7 +5,7 @@ class Program {
   static void Main(string[] args)
   {
     // Store the path of the textfile in your system
-    string file = @"M:\Documents\Textfile.txt";
+    string file = @"E:\Textfile.txt";
 
     // To write all of the text to the file
     string text = "This is some text.";
