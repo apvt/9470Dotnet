@@ -15,10 +15,11 @@ insert into emp values(5,'jsh','asd',10000,9568376175);
 select * from emp where empid IN (select empid from emp where empsal > 20000) ;
 
 
-INSERT INTO emp1 SELECT * FROM emp WHERE empid IN (SELECT empid
- FROM emp) ;
+INSERT INTO dept SELECT * FROM emp WHERE empid IN (SELECT empid
+
+FROM emp);
  
- 
+
  UPDATE emp SET empsal = empsal * 0.25 WHERE empid IN (SELECT empid FROM emp1
  WHERE empid = 1 );
  
