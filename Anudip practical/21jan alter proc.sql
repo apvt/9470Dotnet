@@ -26,4 +26,4 @@ WHERE
 empsal=20000;
 END;
 
-
+select * from proc_emp;
