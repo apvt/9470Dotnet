@@ -1,4 +1,4 @@
-*Button*                                                                                                                                                                                       <Window x:Class="WPFEvent.MainWindow"  
+*Button*                                                                                                                                                                                         
         <Window x:Class="WPF_button.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"  
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"  
