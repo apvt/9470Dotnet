@@ -1,4 +1,4 @@
-*TextBox*                                                                                                                                                                                     <Window x:Class="WpfApp2.MainWindow"  
+*TextBox*                                                                                                                                                                                       
         <Window x:Class="WPF_textbox.MainWindow"
 xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"  
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"  
