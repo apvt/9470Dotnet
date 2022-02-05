@@ -21,7 +21,7 @@ namespace Connection_With_Database
         private void button1_Click(object sender, EventArgs e)
         {
 
-            SqlConnection con = new SqlConnection(@"Data Source=DESKTOP-EHTH26K\SQLEXPRESS;Initial Catalog=apoorva;Integrated Security=True");
+            SqlConnection con = new SqlConnection(@"Data Source=.;Initial Catalog=apoorva;Integrated Security=True");
             try
             {
                 con.Open();
