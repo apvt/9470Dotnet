@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32106.194
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LINQTOADO.NET", "LINQTOADO.NET.csproj", "{A98ECCDB-1989-424F-BBDE-05795E5BE240}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A98ECCDB-1989-424F-BBDE-05795E5BE240}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A98ECCDB-1989-424F-BBDE-05795E5BE240}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A98ECCDB-1989-424F-BBDE-05795E5BE240}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A98ECCDB-1989-424F-BBDE-05795E5BE240}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {80A0CE90-8095-485A-ACC1-AA13C6E341CF}
+	EndGlobalSection
+EndGlobal
