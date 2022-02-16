@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32126.315
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WcfTst", "WcfTst.csproj", "{7BD0537E-31FA-4DD3-AFDD-2CBA07CF33FC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7BD0537E-31FA-4DD3-AFDD-2CBA07CF33FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7BD0537E-31FA-4DD3-AFDD-2CBA07CF33FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7BD0537E-31FA-4DD3-AFDD-2CBA07CF33FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7BD0537E-31FA-4DD3-AFDD-2CBA07CF33FC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BBFDF309-C23B-427C-B608-771DFCE235C2}
+	EndGlobalSection
+EndGlobal
