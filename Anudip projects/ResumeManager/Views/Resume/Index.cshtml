@@ -1,0 +1,62 @@
+﻿@model IEnumerable<ResumeManager.Models.Applicant>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Name)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Gender)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Age)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Qualification)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.TotalExperience)
+            </th>
+            
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Name)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Gender)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Age)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Qualification)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.TotalExperience)
+            </td>
+            
+            <td>
+                
+                 <a asp-controller="Resume" asp-action="Edit" asp-route-id="@item.Id" class=" btn btn-sm btn-primary">Edit</a> |
+                <a asp-controller="Resume" asp-action="Details" asp-route-id="@item.Id" class=" btn btn-sm btn-primary">Details</a> |
+                <a asp-controller="Resume" asp-action="Delete" asp-route-id="@item.Id" class=" btn btn-sm btn-primary">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
