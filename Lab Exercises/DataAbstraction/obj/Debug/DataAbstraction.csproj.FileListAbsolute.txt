@@ -1,0 +1,8 @@
+C:\Users\APOORVA\Desktop\DataAbstraction\bin\Debug\DataAbstraction.exe.config
+C:\Users\APOORVA\Desktop\DataAbstraction\bin\Debug\DataAbstraction.exe
+C:\Users\APOORVA\Desktop\DataAbstraction\bin\Debug\DataAbstraction.pdb
+C:\Users\APOORVA\Desktop\DataAbstraction\obj\Debug\DataAbstraction.csproj.AssemblyReference.cache
+C:\Users\APOORVA\Desktop\DataAbstraction\obj\Debug\DataAbstraction.csproj.SuggestedBindingRedirects.cache
+C:\Users\APOORVA\Desktop\DataAbstraction\obj\Debug\DataAbstraction.csproj.CoreCompileInputs.cache
+C:\Users\APOORVA\Desktop\DataAbstraction\obj\Debug\DataAbstraction.exe
+C:\Users\APOORVA\Desktop\DataAbstraction\obj\Debug\DataAbstraction.pdb
