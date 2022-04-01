@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Arrays
 {
-    internal class Program
+     class Program
     {
 		
 
