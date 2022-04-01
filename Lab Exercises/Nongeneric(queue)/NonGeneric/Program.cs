@@ -9,8 +9,7 @@ namespace NonGeneric
 {
 	internal class Program
 	{
-		class GFG
-		{
+		
 
 			// Driver code
 			public static void Main(string[] args)
@@ -35,7 +34,7 @@ namespace NonGeneric
 				// Displaying the beginning element of Queue
 				Console.WriteLine("Beginning Item is: " + myQueue.Peek());
 			}
-		}
+		
 	}
 }
 
