@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace SumofElements
 {
-    internal class Program
+     class Program
     {
         static void Main(string[] args)
         {
