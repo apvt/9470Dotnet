@@ -8,9 +8,7 @@ namespace Arrays
 {
      class Program
     {
-		
-
-			// Main Method
+	            // Main Method
 			public static void Main(string[] args)
 			{
 
@@ -30,7 +28,5 @@ namespace Arrays
 					Console.WriteLine(arr[i]);
 				}
 			}
-		
-
 	}
 }
