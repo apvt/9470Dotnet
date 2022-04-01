@@ -1,0 +1,8 @@
+D:\Interview preparation\Array\Operator\bin\Debug\Operator.exe.config
+D:\Interview preparation\Array\Operator\bin\Debug\Operator.exe
+D:\Interview preparation\Array\Operator\bin\Debug\Operator.pdb
+D:\Interview preparation\Array\Operator\obj\Debug\Operator.csproj.AssemblyReference.cache
+D:\Interview preparation\Array\Operator\obj\Debug\Operator.csproj.SuggestedBindingRedirects.cache
+D:\Interview preparation\Array\Operator\obj\Debug\Operator.csproj.CoreCompileInputs.cache
+D:\Interview preparation\Array\Operator\obj\Debug\Operator.exe
+D:\Interview preparation\Array\Operator\obj\Debug\Operator.pdb
