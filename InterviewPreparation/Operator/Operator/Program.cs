@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Operator
 {
-    internal class Program
+     class Program
     {
         static void Main(string[] args)
         {
