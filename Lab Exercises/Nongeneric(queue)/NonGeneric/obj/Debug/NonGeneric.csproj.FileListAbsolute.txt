@@ -1,0 +1,16 @@
+C:\Users\APOORVA\Desktop\NonGeneric\bin\Debug\NonGeneric.exe.config
+C:\Users\APOORVA\Desktop\NonGeneric\bin\Debug\NonGeneric.exe
+C:\Users\APOORVA\Desktop\NonGeneric\bin\Debug\NonGeneric.pdb
+C:\Users\APOORVA\Desktop\NonGeneric\obj\Debug\NonGeneric.csproj.AssemblyReference.cache
+C:\Users\APOORVA\Desktop\NonGeneric\obj\Debug\NonGeneric.csproj.SuggestedBindingRedirects.cache
+C:\Users\APOORVA\Desktop\NonGeneric\obj\Debug\NonGeneric.csproj.CoreCompileInputs.cache
+C:\Users\APOORVA\Desktop\NonGeneric\obj\Debug\NonGeneric.exe
+C:\Users\APOORVA\Desktop\NonGeneric\obj\Debug\NonGeneric.pdb
+D:\lab exercises\NonGeneric\bin\Debug\NonGeneric.exe.config
+D:\lab exercises\NonGeneric\bin\Debug\NonGeneric.exe
+D:\lab exercises\NonGeneric\bin\Debug\NonGeneric.pdb
+D:\lab exercises\NonGeneric\obj\Debug\NonGeneric.csproj.AssemblyReference.cache
+D:\lab exercises\NonGeneric\obj\Debug\NonGeneric.csproj.SuggestedBindingRedirects.cache
+D:\lab exercises\NonGeneric\obj\Debug\NonGeneric.csproj.CoreCompileInputs.cache
+D:\lab exercises\NonGeneric\obj\Debug\NonGeneric.exe
+D:\lab exercises\NonGeneric\obj\Debug\NonGeneric.pdb
