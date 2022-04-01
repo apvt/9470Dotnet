@@ -1,0 +1,8 @@
+D:\Interview preparation\Array\StoreElementsInArray\obj\Debug\StoreElementsInArray.csproj.AssemblyReference.cache
+D:\Interview preparation\Array\StoreElementsInArray\obj\Debug\StoreElementsInArray.csproj.SuggestedBindingRedirects.cache
+D:\Interview preparation\Array\StoreElementsInArray\obj\Debug\StoreElementsInArray.csproj.CoreCompileInputs.cache
+D:\Interview preparation\Array\StoreElementsInArray\bin\Debug\StoreElementsInArray.exe.config
+D:\Interview preparation\Array\StoreElementsInArray\bin\Debug\StoreElementsInArray.exe
+D:\Interview preparation\Array\StoreElementsInArray\bin\Debug\StoreElementsInArray.pdb
+D:\Interview preparation\Array\StoreElementsInArray\obj\Debug\StoreElementsInArray.exe
+D:\Interview preparation\Array\StoreElementsInArray\obj\Debug\StoreElementsInArray.pdb

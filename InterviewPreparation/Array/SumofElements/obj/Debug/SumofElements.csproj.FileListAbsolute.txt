@@ -1,0 +1,8 @@
+D:\Interview preparation\SumofElements\bin\Debug\SumofElements.exe.config
+D:\Interview preparation\SumofElements\bin\Debug\SumofElements.exe
+D:\Interview preparation\SumofElements\bin\Debug\SumofElements.pdb
+D:\Interview preparation\SumofElements\obj\Debug\SumofElements.csproj.AssemblyReference.cache
+D:\Interview preparation\SumofElements\obj\Debug\SumofElements.csproj.SuggestedBindingRedirects.cache
+D:\Interview preparation\SumofElements\obj\Debug\SumofElements.csproj.CoreCompileInputs.cache
+D:\Interview preparation\SumofElements\obj\Debug\SumofElements.exe
+D:\Interview preparation\SumofElements\obj\Debug\SumofElements.pdb
