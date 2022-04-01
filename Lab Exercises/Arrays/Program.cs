@@ -8,8 +8,7 @@ namespace Arrays
 {
     internal class Program
     {
-		class GFG
-		{
+		
 
 			// Main Method
 			public static void Main(string[] args)
@@ -31,7 +30,7 @@ namespace Arrays
 					Console.WriteLine(arr[i]);
 				}
 			}
-		}
+		
 
 	}
 }
