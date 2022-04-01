@@ -1,0 +1,8 @@
+D:\Interview preparation\Variable\bin\Debug\Variable.exe.config
+D:\Interview preparation\Variable\bin\Debug\Variable.exe
+D:\Interview preparation\Variable\bin\Debug\Variable.pdb
+D:\Interview preparation\Variable\obj\Debug\Variable.csproj.AssemblyReference.cache
+D:\Interview preparation\Variable\obj\Debug\Variable.csproj.SuggestedBindingRedirects.cache
+D:\Interview preparation\Variable\obj\Debug\Variable.csproj.CoreCompileInputs.cache
+D:\Interview preparation\Variable\obj\Debug\Variable.exe
+D:\Interview preparation\Variable\obj\Debug\Variable.pdb
