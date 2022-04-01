@@ -40,7 +40,7 @@ namespace Demoabstraction
 		}
 
 		// Driver Class
-		class GFG
+		class Program
 		{
 
 			// Main Method
