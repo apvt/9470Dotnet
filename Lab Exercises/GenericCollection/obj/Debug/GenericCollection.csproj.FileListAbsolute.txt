@@ -1,8 +1,0 @@
-C:\Users\APOORVA\Desktop\GenericCollection\bin\Debug\GenericCollection.exe.config
-C:\Users\APOORVA\Desktop\GenericCollection\bin\Debug\GenericCollection.exe
-C:\Users\APOORVA\Desktop\GenericCollection\bin\Debug\GenericCollection.pdb
-C:\Users\APOORVA\Desktop\GenericCollection\obj\Debug\GenericCollection.csproj.AssemblyReference.cache
-C:\Users\APOORVA\Desktop\GenericCollection\obj\Debug\GenericCollection.csproj.SuggestedBindingRedirects.cache
-C:\Users\APOORVA\Desktop\GenericCollection\obj\Debug\GenericCollection.csproj.CoreCompileInputs.cache
-C:\Users\APOORVA\Desktop\GenericCollection\obj\Debug\GenericCollection.exe
-C:\Users\APOORVA\Desktop\GenericCollection\obj\Debug\GenericCollection.pdb
