@@ -1,0 +1,16 @@
+C:\Users\APOORVA\Desktop\GenericCollection\bin\Debug\GenericCollection.exe.config
+C:\Users\APOORVA\Desktop\GenericCollection\bin\Debug\GenericCollection.exe
+C:\Users\APOORVA\Desktop\GenericCollection\bin\Debug\GenericCollection.pdb
+C:\Users\APOORVA\Desktop\GenericCollection\obj\Debug\GenericCollection.csproj.AssemblyReference.cache
+C:\Users\APOORVA\Desktop\GenericCollection\obj\Debug\GenericCollection.csproj.SuggestedBindingRedirects.cache
+C:\Users\APOORVA\Desktop\GenericCollection\obj\Debug\GenericCollection.csproj.CoreCompileInputs.cache
+C:\Users\APOORVA\Desktop\GenericCollection\obj\Debug\GenericCollection.exe
+C:\Users\APOORVA\Desktop\GenericCollection\obj\Debug\GenericCollection.pdb
+D:\lab exercises\GenericCollection\bin\Debug\GenericCollection.exe.config
+D:\lab exercises\GenericCollection\bin\Debug\GenericCollection.exe
+D:\lab exercises\GenericCollection\bin\Debug\GenericCollection.pdb
+D:\lab exercises\GenericCollection\obj\Debug\GenericCollection.csproj.AssemblyReference.cache
+D:\lab exercises\GenericCollection\obj\Debug\GenericCollection.csproj.SuggestedBindingRedirects.cache
+D:\lab exercises\GenericCollection\obj\Debug\GenericCollection.csproj.CoreCompileInputs.cache
+D:\lab exercises\GenericCollection\obj\Debug\GenericCollection.exe
+D:\lab exercises\GenericCollection\obj\Debug\GenericCollection.pdb
