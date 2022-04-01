@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections;
 
-class GFG
+class Program
 {
 
 	// Main Method
