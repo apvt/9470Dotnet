@@ -1,8 +1,0 @@
-C:\Users\APOORVA\Desktop\ArrayList\bin\Debug\ArrayList.exe.config
-C:\Users\APOORVA\Desktop\ArrayList\bin\Debug\ArrayList.exe
-C:\Users\APOORVA\Desktop\ArrayList\bin\Debug\ArrayList.pdb
-C:\Users\APOORVA\Desktop\ArrayList\obj\Debug\ArrayList.csproj.AssemblyReference.cache
-C:\Users\APOORVA\Desktop\ArrayList\obj\Debug\ArrayList.csproj.SuggestedBindingRedirects.cache
-C:\Users\APOORVA\Desktop\ArrayList\obj\Debug\ArrayList.csproj.CoreCompileInputs.cache
-C:\Users\APOORVA\Desktop\ArrayList\obj\Debug\ArrayList.exe
-C:\Users\APOORVA\Desktop\ArrayList\obj\Debug\ArrayList.pdb
