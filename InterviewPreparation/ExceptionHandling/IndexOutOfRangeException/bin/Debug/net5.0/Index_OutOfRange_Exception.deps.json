@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "Index_OutOfRange_Exception/1.0.0": {
+        "runtime": {
+          "Index_OutOfRange_Exception.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Index_OutOfRange_Exception/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
